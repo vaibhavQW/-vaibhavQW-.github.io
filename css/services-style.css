@@ -1,0 +1,207 @@
+a{
+    text-decoration: none;
+}
+header{
+    background-image: url(../images/services/shipcargoaboveplane.png);
+    background-size: 100vw 100vh;
+    height: 52vh;
+    margin-top: -1vh;
+    width: 99vw;
+    margin-left: -0.5vw;
+}
+#Company-name{
+    width:156px;  
+}
+#btncontainer{
+    display: none;
+}
+#links{
+    float: right;
+    margin-top: 1vh;
+}
+.link{
+    margin-left: 1vw;
+    margin-right: 1vw;
+    font-size: 2vw;
+    color: rgb(51,51,49);
+}
+.link:hover{
+    color: rgb(255,0,0);
+}
+#services-header {
+    margin-top: 30vh;
+    margin-left: 8vw;
+    font-size: 3vw;
+    color: white;
+}
+#imagelist {
+    float: right;
+    margin-top: 12vh;
+    background-color: white;
+    margin-right: 1vw;
+    margin-left: 1vw;
+}
+figure { 
+    display: inline-block;
+    margin-left: 1vw;
+    margin-right: 1vw;
+}
+figcaption{
+    font-weight: bold;
+}
+section{
+    margin-left: 5vw;
+    margin-right: 5vw;
+}
+.underline{
+    text-decoration: underline rgb(255,0,0);
+}
+#para-header{
+    font-size: 4vw;
+}
+#para-head{
+    font-size: 2.5vw;
+    color: rgb(138, 138, 136);
+    margin-top: 5vh;
+}
+#para-foot{
+    margin-top: 7vh;
+    color: rgb(138, 138, 136);
+    font-size: 1.5vw;
+}
+#listandimage{
+    box-shadow: 0px 0px 28px rgb(150 150 149);
+    margin-top: 14vh;
+    height: 43vh;
+}
+ul {
+    list-style-type: none;
+}
+#shipinwater {
+    float: right;
+    height: 30vh;
+    width: 40vw;
+    margin-top: -37vh;
+    margin-right: 8vw;
+}
+footer{
+    margin-left: -1vw;
+}
+#jointonews{
+    background-color: rgb(255,0,0);
+    margin-top: 3%;
+    display: block;
+    height: 12vh;
+    text-align: center;
+    font-size: 3vw;
+    width: 99vw;
+    color: rgb(255,255,255);
+ }
+ #newsipcontainer{
+    display: flex;
+    margin-left: 27vw;
+ }
+ #newsemail {
+    display: inline-block;
+    height: 7vh;
+    width: 22vw;
+    background-color: rgb(255,0,0);
+    outline: none !important;
+    border: 1px solid rgb(255,255,255);
+    margin-top: 1%;
+    padding-right: 3vw;
+}
+ #newsemail::placeholder{
+     color: rgb(255,255,255);
+ }
+ newsmail::-ms-input-placeholder { /* Microsoft Edge */
+    color:rgb(255,255,255);
+  }
+  #background-black{
+    background-color: rgb(0,0,0);
+    width: 99vw;
+    color: white;
+  }
+  #companynamefooter{
+    height: 43px;
+    margin: 2vh 0vw 0vh 2vw;
+}
+  #phnnofooter{
+    font-size: 3vw;
+  }
+#mailfooter{
+    font-size:medium;
+}
+#asidefooter{
+    float: right;
+    margin-top: -24vh;
+    color:rgb(255,255,255);
+}
+.linkfooter{
+    color: rgb(255,255,255);
+    margin-left: 1vw;
+    margin-right: 1vw;
+}
+#Socialmediaheadatfooter{
+    margin-left: 10vw;
+    margin-top: 7vh;
+    font-size: 24px;
+    color: rgb(201, 195, 151);
+}
+#socialicons{
+    margin-left: 11vw;
+}
+#MadeBy{
+    float: right;
+    margin-top: 5vh;
+    margin-right: 7vw;
+}
+@media screen and (max-width:940px) {
+    #btncontainer{
+        display: inline-block;
+        margin-top: 1vh;
+        margin-right: 3vw;
+    }
+    #btncontainer div{
+        height: 4px;
+        width: 21px;
+        background-color: rgb(0,0,0);
+        margin-top: 1px;
+    }
+    #btncontainer:hover{
+        transform: rotate(360deg);
+        transition: 2s;
+    }
+    #links{
+        height: 0px;
+        overflow: hidden;
+    }
+    .link{
+        display: block;
+        
+        font-size: 23px;
+    }
+    #imagelist figure{
+        display: block;
+    }
+    #shipinwater {
+       display: none;
+    }
+    #newsipcontainer p{
+        margin-top: 2vh;
+        margin-right: 2vw;
+    }
+   
+}
+@media screen and (max-width:862px) {
+ #asidefooter{
+     display: block;
+     float:left;
+     margin-top: 0vh;
+     background-color: rgb(0,0,0);
+     width: 100vw;
+ }   
+ #linksfooter{
+     display: none;
+ }
+}

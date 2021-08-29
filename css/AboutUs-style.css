@@ -1,0 +1,189 @@
+a{
+    text-decoration: none;
+}
+header{
+    display: inline-block;
+    background-image: url(../images/AboutUs/planewithcargo.png);
+    background-size: 99vw 67vh;
+    height: 50vh;
+    width: 99vw;
+    margin-top: -1vh;
+    margin-left: -0.5vw;
+}
+#Company-name{
+    width:123px;
+}
+#btncontainer{
+    display: none;
+}
+#links{
+    float: right;
+    margin-top: 11px;
+}
+.link{
+    margin-left: 1vw;
+    margin-right: 1vw;
+    font-size: 1.5vw;
+    color: rgb(51,51,49);
+}
+.link:hover{
+    color:rgb(255,0,0);
+}
+.underline{
+    text-decoration: underline rgb(255,0,0);
+}
+#contact-header{
+    margin-top: 31vh;
+    margin-left: 11vw;
+    color: rgb(255,255,255);
+    font-size: 3vw;
+}
+#para-head{
+    font-size: 2vw;
+    color: rgb(138, 138, 136);
+    margin-top: 12vh;
+}
+#para-footer {
+    color: rgb(138, 138, 136);
+    margin-top: 7vh;
+    font-size: 1.5vw;
+}
+figure{
+    display: inline-block;
+    box-shadow: 0px 0px 43px 16px rgb(176 175 174);
+    margin-top: 10vh;
+    margin-left: 10vw;
+}
+.imginfig{
+    height: 37vh;
+    width: 371px;
+}
+figcaption{
+    margin-left: 1vw;
+    margin-bottom: 3vh;
+    width: 361px;
+}
+footer{
+    margin-left: -1vh;
+}
+#jointonews{
+    background-color: rgb(255,0,0);
+    margin-top: 3%;
+    display: block;
+    height: 12vh;
+    text-align: center;
+    font-size: 3vw;
+    width: 99vw;
+    color: rgb(255,255,255);
+ }
+ #newsipcontainer{
+    display: flex;
+    margin-left: 27vw;
+ }
+ #newsipcontainer p {
+    margin-right: 16px;
+    margin-top: 2vh;
+}
+ #newsemail{
+    display: inline-block;
+    height: 7vh;
+    width: 26vw;
+    background-color: rgb(255,0,0);
+    outline: none !important;
+    border: 1px solid rgb(255,255,255);
+    margin-top: 1%;
+    padding-right: 9vw;
+ }
+ #newsemail::placeholder{
+     color: rgb(255,255,255);
+ }
+ newsmail::-ms-input-placeholder { /* Microsoft Edge */
+    color:rgb(255,255,255);
+  }
+  #background-black{
+    background-color: rgb(0,0,0);
+    width: 99vw;
+    color: white;
+  }
+  #companynamefooter{
+    height: 43px;
+    margin: 2vh 0vw 0vh 2vw;
+}
+  #phnnofooter{
+    font-size: 4vw;
+  }
+#mailfooter{
+    font-size:medium;
+}
+#asidefooter{
+    float: right;
+    margin-top: -24vh;
+    color:rgb(255,255,255);
+}
+.linkfooter{
+    color: rgb(255,255,255);
+    margin-left: 1vw;
+    margin-right: 1vw;
+}
+#Socialmediaheadatfooter{
+    margin-left: 10vw;
+    margin-top: 7vh;
+    font-size: 24px;
+    color: rgb(201, 195, 151);
+}
+#socialicons{
+    margin-left: 11vw;
+}
+#MadeBy{
+    float: right;
+    margin-top: 5vh;
+    margin-right: 7vw;
+}
+@media screen and (max-width:940px){
+    #btncontainer{
+        display: block;
+        border: rgb(0,0,0);
+        margin-top: 12px;
+        margin-right: 14px;
+    }
+    #btncontainer:hover{
+        transform: rotate(360deg);
+        transition: 2s;
+    }
+    #btncontainer div{
+        height: 4px;
+        width: 21px;
+        background-color: rgb(0,0,0);
+        margin-top: 1px;
+    }
+    #links{
+        height:0px;
+        overflow: hidden;
+    }
+    .link{
+        display: block;
+        font-size: 4vw;
+        font-weight: bold;
+    }
+    #contact-header {
+        font-size: 6vw;
+    }
+    #newsipcontainer p {
+        margin-right: 16px;
+        margin-top: 3vh;
+    }
+    #asidefooter{
+        display: block;
+        float:left;
+        margin-top: 0vh;
+        background-color: black;
+        width:99vw;
+    }
+    #linksfooter{
+        display: none;
+    }
+    #socialcontainer{
+        margin-left: -5vh; 
+    }
+    
+}

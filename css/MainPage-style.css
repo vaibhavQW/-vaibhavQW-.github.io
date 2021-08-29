@@ -1,0 +1,265 @@
+a{
+    text-decoration: none;
+}
+header{
+    display: inline-block;
+    background-image: url(../images/MainPage/shiponboard.png);
+    background-size: 100vw 67vh;
+    height: 50vh;
+    width: 100vw;
+    margin-top: -1vh;
+    margin-left: -0.5vw;
+}
+#Company-name{
+    margin-left: 4vw;
+    margin-top: 1vh;
+    height: 4vh;
+    width: 9vw;
+}
+#btncontainer{
+    display: none;
+}
+#links{
+    float: right;
+    margin-top: 1vh;
+}
+.link{
+    color: rgb(0,0,0);
+    margin-left: 1vw;
+    margin-right: 1vw;
+    font-size: 2vw;
+}
+.link:hover{
+    color: rgb(255,0,0);
+}
+#oceanservicesdefine{
+    margin-left: 4vw;
+    margin-top: 6vh;
+}
+#Oceanheader{
+    color: white;
+}
+#oceanpara{
+    color:white;
+}
+#quotebutton{
+    margin-top: 4vh;
+    background-color: rgb(255,0,0);
+    display: inline-block;
+    height: 3vh;
+    width: 136px;
+    padding-top: 1vh;
+}
+#quotebutton:hover{
+    padding-left: 1vw;
+    
+}
+#changepicbtns{
+    float: right;
+    margin-right: 1vw;
+    margin-top: -12vh;
+}
+.changepicbtn{
+    display: block;
+    height: 10px;
+    width: 10px;
+    margin-top: 1vh;
+    border-radius: 50%;
+    border: 2px solid rgb(255,255,255);
+}
+section{
+    margin-left: -1vw;
+    width: 101vw;
+}
+.underline{
+    text-decoration: underline rgb(255,0,0);
+}
+#freight{
+    
+    display: block;
+    margin-top: -10vh;
+    background-color: rgb(232, 231, 230);
+}
+figure{
+    display: inline-block;
+    height: 38vh;
+    width: 23vw;
+    margin-left: 110px;
+}
+figure img{
+    height: 20vh;
+    width: 23vw;
+}
+#writingwithimgs{
+    display: inline-block;
+    height: 23vh;
+    width: 34vw;
+    margin-top: 9vh;
+    margin-left: 11vw;
+}
+#imgs{
+    float: right;
+    margin-right: 4vw;
+}
+#partnerswrite{
+    display: block;
+    margin-top: 27vh;
+    font-size: 3vw;
+    padding-left: 44%;
+    background-color: rgb(0,0,0);
+    color: rgb(255,255,255);
+    height: 14vh;
+    width:55vw
+}
+#partnersimg{
+    display: flex;
+    margin-top: -5vh;
+    padding-left: 21vw;
+    margin-left:0vw;
+}
+.company{
+    margin-left: 1vw;
+    box-shadow: 0px 0px 0px 1px rgb(199 199 199);
+}
+footer{
+    margin-left: -1vh;
+}
+footer section{
+    margin-left: 1vh;
+}
+#jointonews{
+    background-color: rgb(255,0,0);
+    margin-top: 3%;
+    display: block;
+    height: 12vh;
+    text-align: center;
+    font-size: 3vw;
+    width: 99vw;
+    color: rgb(255,255,255);
+ }
+ #newsipcontainer{
+    display: flex;
+    margin-left: 27vw;
+ }
+ #newsipcontainer p{
+     margin-right: 1vw;
+     margin-top: 0vh;
+ }
+ #newsemail{
+    display: inline-block;
+    height: 7vh;
+    width: 26vw;
+    background-color: rgb(255,0,0);
+    outline: none !important;
+    border: 1px solid rgb(255,255,255);
+    margin-top: 1%;
+    padding-right: 3vw;
+ }
+ #newsemail::placeholder{
+     color: rgb(255,255,255);
+ }
+ newsmail::-ms-input-placeholder { /* Microsoft Edge */
+    color:rgb(255,255,255);
+  }
+  #background-black{
+    background-color: rgb(0,0,0);
+    width: 99vw;
+    color: white;
+  }
+  #companynamefooter{
+    height: 43px;
+    margin: 2vh 0vw 0vh 2vw;
+}
+  #phnnofooter{
+    font-size: 3vw;
+  }
+#mailfooter{
+    font-size:medium;
+}
+#asidefooter{
+    float: right;
+    margin-top: -24vh;
+    color:rgb(255,255,255);
+}
+.linkfooter{
+    color: rgb(255,255,255);
+    margin-left: 1vw;
+    margin-right: 1vw;
+}
+#Socialmediaheadatfooter{
+    margin-left: 10vw;
+    margin-top: 7vh;
+    font-size: 24px;
+    color: rgb(201, 195, 151);
+}
+#socialicons{
+    margin-left: 11vw;
+}
+#MadeBy{
+    float: right;
+    margin-top: 5vh;
+    margin-right: 7vw;
+}
+@media screen and (max-width:1058px) {
+    #imgs{
+        display: none;
+    }
+    #partnersimg{
+        display: block;
+        padding-left: 40vw;
+    }
+    #partnersimg img{
+        display: block;
+        margin-top: 1px;
+    }
+    #asidefooter{
+        margin-top: -20vh;
+    }
+    #newsemail{
+        padding-right:10vw
+    }
+    #newsipcontainer p{
+        margin-top:2vh;
+    }
+}
+
+@media  screen and (max-width:620px) {
+    #btncontainer{
+        display: block;
+        margin-right: 10px;
+        margin-top:10px ;
+    }
+    
+    #btncontainer div{
+        background-color: rgb(255,0,0);
+        height: 5px;
+        width:20px;
+        margin-top: 3px;
+    }
+    #btncontainer:hover{
+        transform: rotate(360deg);
+        transition: 2s;
+
+    }
+    #links{
+        height: 0px;
+        overflow: hidden;
+    }
+    .link{
+        display: block;
+        font-size:4vw;
+    }
+    
+   
+    #asidefooter{
+        display: block;
+        float: left;
+        margin-top: 0vh;
+        background-color: black;
+        width: 99vw;
+    }
+    #linksfooter{
+        display: none;
+    }
+
+}
